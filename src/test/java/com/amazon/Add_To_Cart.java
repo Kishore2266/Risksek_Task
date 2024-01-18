@@ -43,9 +43,16 @@ public class Add_To_Cart {
 			driver.findElement(By.xpath("(//span[@class='a-size-medium a-color-base a-text-normal'])[1]")).click();
 			Thread.sleep(2000); //To identify the web element
 			driver.findElement(By.xpath("(//input[@class='a-button-input'])[2]")).click();
+	   }
+	   @Test(priority=3,dependsOnMethods= {"Add_To_Cart"})
+			public void close()
+			{
+				driver.close();
+			}
+			
 
 
 	      
-	   } }  
+	   }  
 	   
 	   
