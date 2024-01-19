@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-18T18:44:51 IST" name="Default suite" finished-at="2024-01-18T18:45:35 IST" duration-ms="44263">
+  <suite started-at="2024-01-19T16:09:16 IST" name="Default suite" finished-at="2024-01-19T16:10:12 IST" duration-ms="55635">
     <groups>
     </groups>
-    <test started-at="2024-01-18T18:44:51 IST" name="Default test" finished-at="2024-01-18T18:45:35 IST" duration-ms="44263">
+    <test started-at="2024-01-19T16:09:16 IST" name="Default test" finished-at="2024-01-19T16:10:12 IST" duration-ms="55635">
       <class name="com.amazon.Add_To_Cart">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.amazon.Add_To_Cart@449a4f23]" started-at="2024-01-18T18:44:51 IST" name="openApplication" finished-at="2024-01-18T18:44:58 IST" duration-ms="7281" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.amazon.Add_To_Cart@74ea2410]" started-at="2024-01-19T16:09:16 IST" name="openApplication" finished-at="2024-01-19T16:09:24 IST" duration-ms="7764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="Login()[pri:1, instance:com.amazon.Add_To_Cart@449a4f23]" started-at="2024-01-18T18:44:58 IST" name="Login" finished-at="2024-01-18T18:45:17 IST" duration-ms="19349" status="PASS">
+        <test-method signature="Login()[pri:1, instance:com.amazon.Add_To_Cart@74ea2410]" started-at="2024-01-19T16:09:24 IST" name="Login" finished-at="2024-01-19T16:09:45 IST" duration-ms="20842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Add_To_Cart()[pri:2, instance:com.amazon.Add_To_Cart@449a4f23]" started-at="2024-01-18T18:45:18 IST" name="Add_To_Cart" finished-at="2024-01-18T18:45:34 IST" depends-on-methods="com.amazon.Add_To_Cart.Login" duration-ms="16757" status="PASS">
+        <test-method signature="Add_To_Cart1()[pri:2, instance:com.amazon.Add_To_Cart@74ea2410]" started-at="2024-01-19T16:09:45 IST" name="Add_To_Cart1" finished-at="2024-01-19T16:10:11 IST" depends-on-methods="com.amazon.Add_To_Cart.Login" duration-ms="26001" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Add_To_Cart -->
-        <test-method signature="close()[pri:3, instance:com.amazon.Add_To_Cart@449a4f23]" started-at="2024-01-18T18:45:34 IST" name="close" finished-at="2024-01-18T18:45:35 IST" depends-on-methods="com.amazon.Add_To_Cart.Add_To_Cart" duration-ms="658" status="PASS">
+        </test-method> <!-- Add_To_Cart1 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.amazon.Add_To_Cart@74ea2410]" started-at="2024-01-19T16:10:11 IST" name="close" finished-at="2024-01-19T16:10:12 IST" duration-ms="883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
