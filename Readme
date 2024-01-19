@@ -3,3 +3,4 @@ Project overview :1. Login the amazon application 2. search the earpods product 
 Code Implementation:Iam using TestNg and added required dependencies in pom.xml  
 Execution: : created testng.xml and run our test cases through testNg.xml
 Reports : In test-output folder(index.html) report is generated.
+Github Url:https://github.com/Kishore2266/Risksek_Task.git.
