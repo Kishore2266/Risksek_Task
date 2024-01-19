@@ -1,1 +1,8 @@
+project Title : Amazon
+Project overview :
+1. Login the amazon application 2. search the earpods product and select 3rd product 3. add to cart . 
+Code Implementation:Iam using TestNg
+ added required dependencies in pom.xml 
+Execution: : created testng.xml and run our test cases through testNg.xml
+Reports : In test-output folder(index.html) report is generated.
 
